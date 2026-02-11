@@ -14,8 +14,8 @@ function mostrarApi(link) {
     .then(disneyApi=>{
         console.log(disneyApi);
         
-        document.getElementById("cont2").innerHTML += ""
-        document.getElementById("cont2").innerHTML += `
+        document.getElementById("cont2").innerHTML = ""
+        document.getElementById("cont2").innerHTML = `
 
             <div id="name">${disneyApi.data.tvShows}</div> 
 
